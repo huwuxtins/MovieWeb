@@ -1,0 +1,58 @@
+﻿{
+  "id": "af1b48b5-cad4-4f13-e8d5-08dbeb682ca7",
+  "name": "Aladdin",
+  "description": "Aladdin is a 2019 American musical fantasy film directed by Guy Ritchie from a screenplay he co-wrote with John August. ",
+  "genre": "action",
+  "imageLink": "http://thegioiblu-ray.com/resources/200ceb26807d6bf99fd6f4f0d1ca54d4/1%202D25G/B4144n.JPG",
+  "author": "Guy Ritchie",
+  "country": "UK",
+  "yearRelease": "2019-05-24",
+  "casts": [
+    {
+      "name": "Christopher Hemsworth",
+      "nationality": "Australian",
+      "imageLink": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTNpfNrlgbl24UGYj3nbEOoYCXpHgHFwE0OZ_694hdou1PpYlYD",
+      "description": "Christopher Hemsworth AM (born 11 August 1983) is an Australian actor. He rose to prominence playing Kim Hyde in the Australian television series Home and Away (2004–2007) before beginning a film career in Hollywood. "
+    },
+    {
+      "name": "Willard Carroll Smith",
+      "nationality": "USA",
+      "imageLink": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTRTgy09ZzYKeBvzPbfA5RXG_qHkEW3TX-8y4jzhupnZx34HRPO",
+      "description": "Willard Carroll Smith II[3] (born September 25, 1968) is an American actor, rapper and film producer. He has received multiple accolades, including an Academy Award, a BAFTA Award, and four Grammy Awards."
+    }
+  ],
+  "rating": 0,
+  "reviews": 0,
+  "linkUrl": "https://player.vimeo.com/video/358205676",
+  "linkDemo": "https://player.vimeo.com/video/358205676",
+  "filmLength": 200
+},
+{
+  "id": "d1f71aab-972f-436e-bf6d-08dbeb698b76",
+  "name": "Thor: Love and Thunder",
+  "description": "Thor: Love and Thunder is a 2022 American superhero film based on Marvel Comics featuring the character Thor. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the sequel to Thor: Ragnarok (2017) and the 29th film in the Marvel Cinematic Universe (MCU).",
+  "genre": "action",
+  "imageLink": "https://kenh14cdn.com/thumb_w/620/203336854389633024/2022/7/7/ngang-16571829094711198711641.jpg",
+  "author": "Guy Ritchie",
+  "country": "USA",
+  "yearRelease": "2019-10-04T00:00:00",
+  "casts": [
+    {
+      "name": "Christopher Hemsworth",
+      "nationality": "Australian",
+      "imageLink": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTNpfNrlgbl24UGYj3nbEOoYCXpHgHFwE0OZ_694hdou1PpYlYD",
+      "description": "Christopher Hemsworth AM (born 11 August 1983) is an Australian actor. He rose to prominence playing Kim Hyde in the Australian television series Home and Away (2004–2007) before beginning a film career in Hollywood. "
+    },
+    {
+      "name": "Willard Carroll Smith",
+      "nationality": "USA",
+      "imageLink": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTRTgy09ZzYKeBvzPbfA5RXG_qHkEW3TX-8y4jzhupnZx34HRPO",
+      "description": "Willard Carroll Smith II[3] (born September 25, 1968) is an American actor, rapper and film producer. He has received multiple accolades, including an Academy Award, a BAFTA Award, and four Grammy Awards."
+    }
+  ],
+  "rating": 0,
+  "reviews": 0,
+  "linkUrl": "https://player.vimeo.com/video/358205676",
+  "linkDemo": "https://player.vimeo.com/video/358205676",
+  "filmLength": 200
+}
