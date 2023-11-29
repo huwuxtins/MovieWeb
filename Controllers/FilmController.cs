@@ -69,17 +69,17 @@ namespace MovieWeb.Controllers
             return NoContent();
         }
 
-        [HttpPut]
-        public async Task<ActionResult> ReviewFilm(Guid id, [FromBody] float score)
+        [HttpPut("")]
+        public async Task<ActionResult> ReviewFilm(ReviewDTO reviewDTO)
         {
-            var film = await _filmService.GetFilm(id);
+            var film = await _filmService.GetFilm(reviewDTO.Id);
             if (film == null)
             {
                 return NotFound();
             }
             film.Reviews++;
-            film.Rating += score;
-            var isUpdated = await _filmService.UpdateFilm(id, film);
+            film.Rating += reviewDTO.Score;
+            var isUpdated = await _filmService.UpdateFilm(reviewDTO.Id, film);
             if (isUpdated)
             {
                 return Ok(mapper.Map<FilmDTO>(film));

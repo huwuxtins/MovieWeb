@@ -18,17 +18,25 @@ namespace MovieWeb.Services
         public async Task<ICollection<FilmModel>> GetFilms(int size, int? page, string? sort, string? sortedProperty, string? name, string? search)
         {
             ICollection<FilmModel> films = await _dbContext.FilmModels.AsNoTracking().ToListAsync();
-            if (page.HasValue)
-            {
-                films = films.Skip((page.Value - 1) * pageSize).ToList();
-            }
 
             if (!sort.IsNullOrEmpty() && !sortedProperty.IsNullOrEmpty())
             {
                 if (sort.Equals("asc"))
                 {
-                    films = films.OrderBy(f => f.Name).ToList();
+                    if (sortedProperty.Equals("YearRelease"))
+                    {
+                        films = films.OrderByDescending(f => f.YearRelease).Take(size).ToList();
+                    }
+                    else if (sortedProperty.Equals("Reviews"))
+                    {
+                        films = films.OrderByDescending(f => f.Reviews).Take(size).ToList();
+                    }
                 }
+            }
+
+            if (page.HasValue)
+            {
+                films = films.Skip((page.Value - 1) * pageSize).ToList();
             }
 
             if (!name.IsNullOrEmpty())
